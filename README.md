@@ -126,5 +126,10 @@ To understand model decisions:
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/oral-cancer-detection.git
+###  Grad-CAM Comparison
 
+| Original Image | Grad-CAM Heatmap |
+|---------------|------------------|
+| ![](assets/xai/original_cancer.png) | ![](assets/xai/gradcam_oral_cancer.png) |
+| ![](assets/xai/original_normal.png) | ![](assets/xai/gradcam_normal.png) |
 
